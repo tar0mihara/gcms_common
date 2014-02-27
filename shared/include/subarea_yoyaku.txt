@@ -1,0 +1,34 @@
+<div id="ContentSubArea">
+<h3 class="csTit sectS">本日の予定表</h3>
+
+<div class="csBoxNav">
+	<table>
+		<tr>
+			<th>id</th>
+			<th>時間</th>
+			<th>代表者名orコンペ</th>
+		</tr>
+		<tr>
+			<td><a href="#">id</a></td>
+			<td>9:06</td>
+			<td>代表者名orコンペ...</td>
+		</tr>
+		<tr>
+			<td><a href="#">id</a></td>
+			<td>9:12</td>
+			<td>代表者名orコンペ...</td>
+		</tr>
+		<tr>
+			<td><a href="#">id</a></td>
+			<td>9:18</td>
+			<td>代表者名orコンペ...</td>
+		</tr>
+		<tr>
+			<td><a href="#">id</a></td>
+			<td>9:24</td>
+			<td>代表者名orコンペ...</td>
+		</tr>
+	</table>
+</div>
+<!-- /.csBoxNav -->
+</div>

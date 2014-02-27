@@ -1,0 +1,8 @@
+Options +Includes
+AddHandler server-parsed html
+#####basicauth#####
+#AuthUserFile "/home/onion/onionweb.jp/htpasswd/golf/.htpasswd"
+#AuthName "Member Site"
+#AuthType BASIC
+#require valid-user
+#####end:basicauth#####

@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* ============================================================
+＠＠
+パーツCSS
+
+%update / 2014.01.07
+
+ログインページの設定
+
+例：
+body.loginPages #ContentWrap {
+	color: #333;
+}
+
+============================================================ */
+
+/* ------------------------------------------------------------
+body.loginPages #ContentWrap
+------------------------------------------------------------ */
+
+body.loginPages #ContentWrap .cwInnr01{
+	width: 300px;
+}
+
+body.loginPages #ContentWrap #LoginBox{
+	border: 1px solid #cccccc;
+	padding: 40px 20px 20px;
+	border-radius: 5px;
+	background: #cccccc;
+}
+
+body.loginPages #ContentWrap #LoginBox .inpTxt01{
+	font-size: 174%;
+}

@@ -1,0 +1,62 @@
+﻿<div id="HeaderArea">
+<div class="haInnr01 clearfix">
+<h1 id="Logo">
+<a href="/">業務管理システム</a>
+</h1>
+<!-- /#Logo -->
+<div id="LoginInfo">
+<p><span class="logId">スタッフID:000000001</span><span class="logName">氏名:鈴木一郎</span><a href="/A10000020.html" class="logLink">ログアウト</a></p>
+</div>
+<!-- /#LoginInfo -->
+</div>
+<!-- /.haInnr01 -->
+
+<div id="GlobalNav">
+<ul><!--
+--><li class="gnPnav current"><a href="javascript:void(0)" accesskey="1">マスタ登録</a>
+<div class="subNavArea hide">
+<a href="/gcms_common/A001020.html">スタッフ区分登録</a>
+<a href="/gcms_common/A001060.html">スタッフ区分一覧</a>
+<a href="/gcms_common/A001080.html">施設登録</a>
+<a href="/gcms_common/A001120.html">施設一覧</a>
+<a href="/gcms_common/A001140.html">ロッカー登録</a>
+<a href="/gcms_common/A001180.html">ロッカー一覧</a>
+<a href="/gcms_common/A001200.html">予約オプション登録</a>
+<a href="/gcms_common/A001240.html">予約オプション一覧</a>
+<a href="/gcms_common/A001260.html">プレイ時間登録</a>
+<a href="/gcms_common/A001300.html">プレイ時間一覧</a>
+</div>
+</li><!--
+--><li class="gnPnav"><a href="javascript:void(0)" accesskey="2">スタッフ管理</a>
+<div class="subNavArea hide">
+<a href="/gcms_common/A002020.html">スタッフ登録</a>
+<a href="/gcms_common/A002060.html">スタッフ一覧</a>
+</div>
+</li><!--
+--><li class="gnPnav"><a href="javascript:void(0)" accesskey="3">予約管理</a>
+<div class="subNavArea hide">
+<a href="/gcms_common/A004020.html">予約登録</a>
+<a href="/gcms_common/A003060.html">予約一覧</a>
+</div>
+</li><!--
+--><li class="gnPnav"><a href="javascript:void(0)" accesskey="4">当日処理</a>
+<div class="subNavArea hide">
+<a href="/gcms_common/A004020.html">スタート表</a>
+<a href="/gcms_common/A004060.html">チェックイン管理</a>
+</div>
+</li><!--
+--><li class="gnPnav"><a href="javascript:void(0)" accesskey="5">会員管理</a>
+<div class="subNavArea hide">
+<a href="/gcms_common/A005020.html">会員登録</a>
+<a href="/gcms_common/A005060.html">会員一覧</a>
+</div>
+</li><!--
+--><li class="gnPnav"><a href="javascript:void(0)" accesskey="6">経営管理</a>
+<div class="subNavArea hide">
+<a href="/gcms_common/A006020.html">会計管理</a>
+<a href="/gcms_common/A006080.html">各種売上データ</a>
+</div>
+</li></ul>
+</div>
+<!-- /GlobalNav -->
+</div>

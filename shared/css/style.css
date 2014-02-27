@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* ============================================================
+＠＠
+パーツCSS
+
+%update / 2013.12.11
+
+ページごとの設定
+
+例：
+body#Page01 {
+	color: #333;
+}
+
+============================================================ */
+
+/* ------------------------------------------------------------
+ページタイプ01
+------------------------------------------------------------ */
+
+body.pageType01{
+	background: #000000;
+}
+
+body.pageType01 #HeaderArea {
+	background: #000000;
+}
+
+body.pageType01 #HeaderArea .haInnr01{
+	/*background: #2E8B57;*/
+}
+
+body.pageType01 #GlobalNav {
+	border: none;
+	background: #000000;
+}
+
+body.pageType01 #FooterArea {
+	border: none;
+	color: #ffffff;
+}
+
+body.pageType01 #GlobalNav ul li.gnPnav.current a{
+	background: #2E8B57;
+}
+
+body.pageType01 #GlobalNav ul li.gnPnav.hover a{
+	background: #2E8B57;
+}
+
+body.pageType01 #GlobalNav ul li.gnPnav a{
+	color: #ffffff;
+}
+
+body.pageType01 #GlobalNav ul li .subNavArea{
+	border: 3px solid #2E8B57;
+	background: #2E8B57;
+}
+
+body.pageType01 #GlobalNav ul li .subNavArea a{
+	background: none !important;
+	color: #ffffff;
+}
+
+body.pageType01 #GlobalNav ul li .subNavArea a:hover{
+	background: #3CB371 !important;
+	color: #ffffff;
+}

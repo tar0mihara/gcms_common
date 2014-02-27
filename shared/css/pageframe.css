@@ -1,0 +1,364 @@
+@charset "UTF-8";
+/* ============================================================
+＠＠
+ページフレームCSS
+
+%update / 2013.12.11
+
+============================================================ */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: underline;
+	color: #0A50A1;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* ------------------------------------------------------------
+#Container
+------------------------------------------------------------ */
+#Container {
+	width: 100%;
+}
+
+/* ------------------------------------------------------------
+#HeaderArea
+------------------------------------------------------------ */
+#HeaderArea {
+	width: 100%;
+	background: #efefef;
+	position: relative;
+	z-index: 1200;
+}
+
+#HeaderArea .haInnr01{
+	width: 980px;
+	padding: 7px 0 0;
+	margin: 0 auto;
+}
+
+/* ------------------------------------------------------------
+#Logo
+------------------------------------------------------------ */
+#Logo {
+	font-size: 123.1%;
+	margin: 0 auto;
+	/*padding-left: 10px;*/
+	float: left;
+}
+
+#Logo a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* ------------------------------------------------------------
+#LoginInfo
+------------------------------------------------------------ */
+#LoginInfo {
+	float: right;
+	line-height: 1.3;
+	color: #ffffff;
+	font-weight: bold;
+	/*padding-right: 10px;*/
+}
+
+#LoginInfo .logLink{
+	color: #ffffff;
+	margin-left: 10px;
+}
+
+#LoginInfo .logName{
+	color: #ffffff;
+	margin-left: 10px;
+}
+
+#LoginInfo .logId{
+	color: #ffffff;
+	/*margin-left: 10px;*/
+}
+
+/* ------------------------------------------------------------
+#Direction
+------------------------------------------------------------ */
+#Direction {
+	float: left;
+}
+
+/* ------------------------------------------------------------
+#GlobalNav
+------------------------------------------------------------ */
+#GlobalNav {
+	padding: 0;
+	margin: 0 auto;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	background: #efefef;
+	/*z-index: 1200;*/
+}
+
+#GlobalNav ul {
+	width: 980px;
+	margin: 0 auto;
+}
+
+#GlobalNav ul li.gnPnav {
+	display: inline-block;
+	padding: 5px 0 0;
+	margin-right: 5px;
+	position: relative;
+}
+
+#GlobalNav ul li.gnPnav.current a{
+	background: #666666;
+	border-radius: 3px 3px 0 0;
+}
+
+#GlobalNav ul li.gnPnav.hover a{
+	background: #666666;
+	border-radius: 3px 3px 0 0;
+}
+
+#GlobalNav ul li.gnPnav a{
+	color: #ffffff;
+	padding: 8px 20px;
+	display: block;
+	text-decoration: none;
+}
+
+#GlobalNav ul li .subNavArea{
+	position: absolute;
+	border: 3px solid #666666;
+	background: #666666;
+	width: 200px;
+	border-radius: 0 3px 3px 3px;
+}
+
+#GlobalNav ul li .subNavArea a{
+	border-radius:0 !important;
+	text-decoration: none;
+	background: none !important;
+	padding: 4px 18px;
+	border-radius: 3px !important;
+}
+
+#GlobalNav ul li .subNavArea a:hover{
+	background: #f0f8ff !important;
+}
+
+/* ------------------------------------------------------------
+#LocalNav
+------------------------------------------------------------ */
+#LocalNav {
+	margin: 0 auto;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+
+#LocalNav ul {
+	border-left: 1px solid #cccccc;
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#LocalNav ul li {
+	display: inline-block;
+	border-right: 1px solid #cccccc;
+}
+
+#LocalNav ul li.current {
+	background: #666666;
+}
+
+#LocalNav ul li a{
+	padding: 8px 10px;
+	display: block;
+	color: #666666;
+	font-weight: normal;
+}
+
+#LocalNav ul li a:hover{
+	text-decoration: none;
+	background: #f3fcfc;
+}
+
+#LocalNav ul li a:focus {
+	background: #f3fcfc;
+}
+
+#LocalNav ul li a.current{
+	background: #cde7f1;
+}
+
+/* ------------------------------------------------------------
+#ContentWrap
+------------------------------------------------------------ */
+#ContentWrap {
+	margin: 0 auto;
+	border-bottom: 1px solid #cccccc;
+	background: #ffffff;
+}
+
+#ContentWrap .cwInnr01 {
+	width: 980px;
+	padding: 20px 0;
+	margin: 0 auto;
+}
+
+/* ------------------------------------------------------------
+#BreadcrumbList
+------------------------------------------------------------ */
+
+#BreadcrumbList{
+	margin-bottom: 10px;
+}
+
+#BreadcrumbList li{
+	display: inline;
+}
+
+#BreadcrumbList li span{
+	margin: 0 5px;
+}
+
+/* ------------------------------------------------------------
+#ContentMainArea
+------------------------------------------------------------ */
+#ContentMainArea {
+	width: 700px;
+	float: left;
+}
+
+#ContentMainArea .ContentBody {
+
+}
+
+#ContentMainArea .ContentBody .innerArea {
+	margin: 0 auto;
+	padding-bottom: 70px;
+}
+
+/* ------------------------------------------------------------
+#ContentSubArea
+------------------------------------------------------------ */
+#ContentSubArea {
+	float: left;
+	width: 260px;
+	margin-left: 20px;
+}
+
+
+#ContentSubArea .csTit{
+	font-size: 123.1%;
+	padding: 0 0px 10px 0px;
+	border-bottom: 2px solid #2E8B57;
+	line-height: 1.0;
+}
+
+#ContentSubArea .csBoxNav{
+	border: 1px solid #cccccc;
+	padding: 10px;
+}
+
+#ContentSubArea .csBoxNav table{
+	width: 100%;
+}
+
+
+#ContentSubArea .csBoxNav table th{
+	padding: 3px;
+	/*text-align: center;*/
+}
+
+#ContentSubArea .csBoxNav table td{
+	padding: 0px 3px;
+}
+
+/* ------------------------------------------------------------
+#FooterArea
+------------------------------------------------------------ */
+#FooterArea {
+	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+}
+
+#FooterArea a{
+}
+
+#FooterArea .innerArea {
+	margin: 0 auto;
+}
+
+/* ------------------------------------------------------------
+#Copyright
+------------------------------------------------------------ */
+#Copyright {
+	text-align: center;
+	font-weight : bold;
+}
+
+/* ------------------------------------------------------------
+#Pagetop
+------------------------------------------------------------ */
+#Pagetop {
+	float: right;
+	padding: 25px 25px 0 0;
+	color : #ffffff;
+}
+
+/* ------------------------------------------------------------
+#NoScriptArea
+------------------------------------------------------------ */
+#NoScriptArea {
+	padding: 10px 0;
+	text-align: center;
+	border: 1px solid #ff0000;
+	color: #ff0000;
+	background: #ffffff;
+}
+
+
+/* ------------------------------------------------------------
+カラム変更クラス
+------------------------------------------------------------ */
+
+body.oneColumn #ContentWrap #ContentMainArea {
+	width: 100%;
+}/*1カラム用CSS*/
+
+body.liquidtwoColumn #HeaderArea .haInnr01 {
+	width: auto;
+	padding: 7px 20px 0;
+}/*リキッド2カラム用CSS*/
+
+body.liquidtwoColumn #GlobalNav ul {
+	width: auto;
+	padding: 0px 20px;
+}/*リキッド2カラム用CSS*/
+
+body.liquidtwoColumn #ContentWrap .cwInnr01 {
+	width: auto;
+	padding: 10px 20px;
+	position: relative;
+}/*リキッド2カラム用CSS*/
+
+body.liquidtwoColumn #ContentWrap #ContentMainArea {
+	width: auto;
+	float: none;
+	margin-right: 320px;
+}/*リキッド2カラム用CSS*/
+
+body.liquidtwoColumn #ContentWrap #ContentSubArea {
+	float: none;
+	position: absolute;
+	right: 20px;
+	top: 30px;
+	width: 300px;
+}/*リキッド2カラム用CSS*/

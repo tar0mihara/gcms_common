@@ -1,0 +1,11 @@
+<div id="ContentSubArea">
+<h3 class="csTit">ユーザー属性</h3>
+
+<div class="csBoxNav">
+<ul>
+	<li><a href="/employee/">従業員管理</a></li>
+	<li><a href="">権限管理</a></li>
+</ul>
+</div>
+<!-- /.csBoxNav -->
+</div>

@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* ============================================================
+＠＠
+ダミーCSS
+
+%update / 2013.12.11
+
+============================================================ */
+
+/* ------------------------------------------------------------
+共通フレーム
+------------------------------------------------------------ */
+
+#ContentMainArea #DmyNavArea {
+	background: #cccccc;
+	padding: 8px 10px;
+}
+
+#ContentMainArea #DmyNavArea h2{
+	/*color: #ffffff;*/
+	font-size: 108%;
+	border-bottom: 1px solid #ffffff;
+	margin-bottom: 5px;
+}
+
+#ContentMainArea #DmyNavArea ul{
+}
+
+#ContentMainArea #DmyNavArea ul li{
+	margin-right: 10px;
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+/* ------------------------------------------------------------
+共通パーツ
+------------------------------------------------------------ */
+.dmyH2Basic01{
+	background: #eeeeee;
+	padding: 5px;
+	font-size: 116%;
+}
+
+.dmyH3Basic01{
+	padding: 5px;
+	border-bottom: 3px solid #cccccc;
+	background: #f5b1aa;
+}
+
+.dmyItem01{
+	font-size: 85%;
+	text-align: center;
+	background: #cccccc;
+	padding: 3px;
+	background: #fdeff2;
+}
+
+.dmyDisTxt{
+	font-size: 85%;
+	margin-bottom: 10px;
+}
+
+.sampleSource{
+	border: 1px solid #cccccc;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 85%;
+	height: 100px;
+	background: #eeeeee;
+}
+
+/* ------------------------------------------------------------
+ファイルリストページ
+------------------------------------------------------------ */
+
+body#DummyList #ContentMainArea ul.list03 li {
+	background: #eeeeee;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: bold;
+	text-align: center;
+	width: 100px;
+	margin-right: 5px;
+	padding: 5px;
+	border-top: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	border-radius: 5px 5px 0 0;
+}
+
+body#DummyList #ContentMainArea ul.list03 li.current {
+	background: #f0f8ff;
+	/*border: 1px solid #cccccc;*/
+	/*color: #FFFFFF;*/
+}

@@ -1,0 +1,68 @@
+[
+	{
+		"id" : "10000100",
+		"title" : "トップ",
+		"url" :"http://golf.onionweb.jp/top/",
+		"status":0
+	},{
+		"id" : "10000200",
+		"title" : "ログイン",
+		"url" :"http://golf.onionweb.jp/login/",
+		"status":0
+	},{
+		"id" : "10000201",
+		"title" : "ログアウト完了",
+		"url" :"http://golf.onionweb.jp/logout/",
+		"status":0
+	},{
+		"id" : "10000301",
+		"title" : "スタッフ一覧",
+		"url" :"http://golf.onionweb.jp/employee/list.html",
+		"status":1
+	},{
+		"id" : "10000302",
+		"title" : "スタッフ作成",
+		"url" :"http://golf.onionweb.jp/employee/new.html",
+		"status":1
+	},{
+		"id" : "10000303",
+		"title" : "スタッフ区分一覧",
+		"url" :"http://golf.onionweb.jp/employee/klist.html",
+		"status":1
+	},{
+		"id" : "10000304",
+		"title" : "スタッフ区分作成",
+		"url" :"http://golf.onionweb.jp/employee/knew.html",
+		"status":1
+	},{
+		"id" : "10000400",
+		"title" : "グループ",
+		"url" :"http://golf.onionweb.jp/group/",
+		"status":0
+	},{
+		"id" : "10000500",
+		"title" : "設備",
+		"url" :"http://golf.onionweb.jp/Equipment/",
+		"status":0
+	},{
+		"id" : "10000600",
+		"title" : "予約",
+		"url" :"http://golf.onionweb.jp/Reservation/",
+		"status":0
+	},{
+		"id" : "10000700",
+		"title" : "会員",
+		"url" :"http://golf.onionweb.jp/user/",
+		"status":0
+	},{
+		"id" : "10000800",
+		"title" : "プレイ",
+		"url" :"http://golf.onionweb.jp/play/",
+		"status":0
+	},{
+		"id" : "10000900",
+		"title" : "スタート時間",
+		"url" :"http://golf.onionweb.jp/start/",
+		"status":0
+	}
+]

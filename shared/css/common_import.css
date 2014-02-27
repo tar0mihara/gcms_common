@@ -1,0 +1,14 @@
+﻿@charset "UTF-8";
+/* ============================================================
+＠＠
+インポート用CSS
+
+サイト共通
+
+%update / 2013.12.11
+============================================================ */
+
+@import url(/gcms_common/shared/css/init.css); /* 初期化 */
+@import url(/gcms_common/shared/css/pageframe.css); /* ページフレームCSS */
+@import url(/gcms_common/shared/css/style.css); /* カラーCSS */
+@import url(/gcms_common/shared/css/parts.css); /* パーツCSS */

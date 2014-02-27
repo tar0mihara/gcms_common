@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* ============================================================
+＠＠
+ページCSS
+
+%update / 2014.01.07
+
+従業員ページの設定
+
+例：
+body#Employee #ContentWrap {
+	color: #333;
+}
+
+============================================================ */
+
+/* ------------------------------------------------------------
+共通CSS
+------------------------------------------------------------ */
+
+#ContentWrap #ContentMainArea.listTable01{
+	border: 1px solid #cccccc;
+}
+
+#ContentWrap #ContentMainArea .listTable01 .thead th{
+	font-size: 85%;
+	padding: 5px;
+	text-align: center;
+}
+
+#ContentWrap #ContentMainArea .listTable01 td{
+	padding: 5px;
+}
+
+#ContentWrap #ContentMainArea .listTable01 input{
+	vertical-align: middle;
+}
+
+/* ------------------------------------------------------------
+スタッフ区分登録
+------------------------------------------------------------ */
+
+body#A001020 #ContentWrap .formFont {
+	font-size: 123.1%;
+}
+
+body#A001020 #ContentWrap .formFont input{
+	font-size: 123.1%;
+}
+
+body#A001020 #ContentWrap ul.list01 li{
+	width: 50%;
+	float: left;
+}
+
+body#A001020 #ContentWrap ul.list01 li ul.subList01{
+	padding: 0;
+	margin-left: 15px;
+	margin-top: -2px;
+}
+
+body#A001020 #ContentWrap ul.list01 li ul.subList01 li{
+	margin-top: 2px;
+	margin-bottom: 0;
+	float: none;
+}
+
+/* ------------------------------------------------------------
+予約登録
+------------------------------------------------------------ */
+
+body#A004020 #CalType01 .thead01 th{
+		padding: 5px 0;
+		text-align: center;
+		font-weight: bold;
+	}
+
+body#A004020 #CalMouth{
+		font-size: 138.5%;
+		text-align: right;
+	}
+
+body#A004020 #CalType01 tr td{
+		padding: 0;
+	}
+
+body#A004020 #CalType01 tr td.holiday{
+		background: #FFF0F5;
+	}
+
+body#A004020 #CalType01 tr td a {
+		text-decoration: none;
+		color: #000000;
+		display: block;
+	}
+
+body#A004020 #CalType01 tr td .calBox{
+		/*padding: 5px;*/
+		position: relative;
+		padding: 5px;
+	}
+body#A004020 #CalType01 tr td .calBox .data{
+		font-size: 138.5%;
+	}
+body#A004020 #CalType01 tr td .calBox .dataType{
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+body#A004020 #CalType01 tr td .calBox .holidayTxt{
+		font-size: 138.5%;
+		text-align: center;
+	}
+
+/* ------------------------------------------------------------
+会計管理
+------------------------------------------------------------ */
+
+body#A006020 #ContentMainArea ul.tabList {
+	border-bottom: 1px solid #cccccc;
+}
+
+body#A006020 #ContentMainArea ul.tabList li {
+	background: none repeat scroll 0 0 #EEEEEE;
+	border-left: 1px solid #CCCCCC;
+	border-radius: 5px 5px 0 0;
+	border-right: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 5px;
+	padding: 5px;
+	text-align: center;
+	width: 100px;
+}
+
+body#A006020 #ContentMainArea ul.tabList li.current {
+	background: none repeat scroll 0 0 #F0F8FF;
+	font-weight: bold;
+}
+
+body#A006020 #TabArea01 .tabBody{
+	display: none;
+}
+
+body#A006020 #TabArea01 .tabBody.current{
+	display:block !important;
+}

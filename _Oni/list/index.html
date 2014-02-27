@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html lang="ja-JP">
+<head>
+<meta charset="UTF-8">
+<title>業務システム ファイルリスト | 作業ガイドライン インデックス</title>
+<meta name="description" content="description">
+<meta name="keywords" content="keywords">
+<meta name="viewport" content="width=1024">
+<!-- commonImport ================== -->
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="/shared/css/common_import.css">
+<!-- JS -->
+<script type="text/javascript" src="/shared/js/common_import.js"></script>
+<!-- /commonImport ================== -->
+<!-- EachPage ================== -->
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="/_Oni/shared/css/dummy.css">
+<!-- JS -->
+<script type="text/javascript" src="js/jsrender.js"></script>
+<script type="text/javascript" src="js/list_sagyo.js"></script>
+<!-- ここからテンプレートの定義 -->
+<script id="template" type="text/x-jsrender">
+<tr class="{{if status==1 tmpl="effectively"}}{{else tmpl="invalidity"}}{{/if}}">
+<td>{{>id}}</td><td>{{>category}}</td><td>{{>title}}</td><td class="url"><a href="{{>url}}" target="_blank">{{>url}}</a></td><td class="txtCenter">{{>statusWTxt}}</td><td class="txtCenter">{{>statusHTxt}}</td>
+</tr>
+</script>
+<!-- /EachPage ================== -->
+</head>
+<body id="DummyList" class="pageType01 oneColumn"><div id="Container">
+
+<!-- NoScriptArea ================== -->
+<noscript>
+<p id="NoScriptArea">当ウェブサイトを快適にご覧いただくには、ブラウザのJavaScript設定を有効にしていただく必要がございます。</p><!-- /NoScriptArea -->
+</noscript>
+<!-- /NoScriptArea ================== -->
+
+<!-- HeaderArea ================== -->
+<!--#include virtual="/shared/include/header.txt" -->
+<!-- /HeaderArea ================== -->
+
+<!-- ContentWrap ================== -->
+<div id="ContentWrap">
+<div class="cwInnr01 clearfix">
+
+<ul id="BreadcrumbList">
+<li><a href="/">トップページ</a><span>></span></li><!--
+--><li><a href="/_Oni/">作業ガイドライン インデックス</a><span>></span></li><!--
+--><li>業務システム ファイルリスト</li><!--
+--></ul>
+
+<!-- ContentMainArea ================== -->
+<div id="ContentMainArea">
+
+<h1 class="h1Basic01 sectS"><span class="h1Inr01">業務システム ファイルリスト</span></h2>
+
+<div class="sectM">
+<h2 class="h2Basic01 sectS">ファイルリスト</h3>
+
+<p class="sectS txtRight">○・・・完了、△・・・確認待ち、×・・・未完了</p>
+
+<div class="sectM">
+<ul class="list03" id="ListCheck">
+<li class="current"><input type="hidden" value="http://golf.onionweb.jp/">テストサーバー</li><!--
+ --><li><input type="hidden" value="http://golf.localhost/">ローカルホスト</li><!--
+ --></ul>
+
+<table class="tbl01 sectS">
+<colgroup>
+<col style="width:11%;">
+<col style="width:11%;">
+<col style="width:24%;">
+<col style="width:32%;">
+<col style="width:11%;">
+<col style="width:11%;">
+</colgroup>
+<tr class="thead">
+<th class="txtCenter">画面ID</th>
+<th class="txtCenter">カテゴリ</th>
+<th class="txtCenter">タイトル</th>
+<th class="txtCenter">URL</th>
+<th class="txtCenter">ワイヤー</th>
+<th class="txtCenter">html</th>
+</tr>
+<tbody id="ListArea"></tbody>
+</table><!-- /.tbl01 -->
+</div><!-- /.sectM -->
+
+</div>
+<!-- /.sectM -->
+
+</div>
+<!-- //ContentMainArea ================== -->
+
+</div><!-- /.cwInnr01 -->
+</div>
+<!-- /ContentWrap ================== -->
+
+<!-- FooterArea ================== -->
+<!--#include virtual="/shared/include/footer.txt" -->
+<!-- /FooterArea ================== -->
+</div>
+<!-- /#Container -->
+</body>
+</html>
