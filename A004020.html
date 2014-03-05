@@ -8,12 +8,41 @@
 <meta name="viewport" content="width=1024">
 <!-- commonImport ================== -->
 <!-- CSS -->
-<link rel="stylesheet" type="text/css" href="/gcms_common/shared/css/common_import.css">
+<link rel="stylesheet" type="text/css" href="/shared/css/common_import.css">
 <!-- JS -->
-<script type="text/javascript" src="/gcms_common/shared/js/common_import.js"></script>
+<script type="text/javascript" src="/shared/js/common_import.js"></script>
 <!-- /commonImport ================== -->
 <!-- EachPage ================== -->
-<link rel="stylesheet" type="text/css" href="/gcms_common/shared/css/pages.css">
+<link rel="stylesheet" type="text/css" href="/shared/css/pages.css">
+<style>
+	#ModalBg{
+		position: absolute;
+		z-index: 1200;
+		width: 100%;
+		top: 0;
+		background-color: rgba(0,0,0,0.7);
+	}
+	#ModalArea{
+		position: relative;
+		width: 400px;
+		top: 0;
+		background-color: #ffffff;
+	}
+
+	#ModalArea #MdClose{
+		position: absolute;
+		width: 16px;
+		height: 16px;
+		top: -18px;
+		right:-18px;
+		cursor: pointer;
+	}
+
+	#ModalArea .mdInner{
+		padding: 14px 20px;
+	}
+
+</style>
 <!-- CSS -->
 <script type="text/javascript" src="/shared/js/calendar.js"></script>
 <!-- JS -->
@@ -28,7 +57,7 @@
 <!-- /NoScriptArea ================== -->
 
 <!-- HeaderArea ================== -->
-<!--#include virtual="/gcms_common/shared/include/header.txt" -->
+<!--#include virtual="/shared/include/header.txt" -->
 <!-- /HeaderArea ================== -->
 
 <!-- ContentWrap ================== -->
@@ -432,9 +461,57 @@
 <!-- /ContentWrap ================== -->
 
 <!-- FooterArea ================== -->
-<!--#include virtual="/gcms_common/shared/include/footer.txt" -->
+<!--#include virtual="/shared/include/footer.txt" -->
 <!-- /FooterArea ================== -->
 </div>
 <!-- /#Container -->
+<div id="ModalBg" class="hide">
+	<form action="A004020_02.html">
+		<div id="ModalArea">
+			<div id="MdClose"><img src="shared/img/close_off.png" height="16" width="16" alt="" class="over"></div>
+			<div class="mdInner">
+				<h2 class="h2Basic01 sectS">プレイ人数</h2>
+				<p class="sectM">
+					<input type="number" class="mr10 inpTxt02" >人
+				</p>
+				<h2 class="h2Basic01 sectS">スタート時間</h2>
+				<div class="clearfix column2Wrap sectM">
+					<div class="col2InA">
+						<p class="sectS">IN 時間 連続枠</p>
+						<ul>
+							<li><input type="radio" name="test" id="" class="mr10"><span class="mr10">～6：00</span><span>5</span></li>
+							<li><input type="radio" name="test" id="" class="mr10"><span class="mr10">7：00台</span><span>5</span></li>
+							<li><input type="radio" name="test" id="" class="mr10"><span class="mr10">8：00台</span><span>5</span></li>
+							<li><input type="radio" name="test" id="" class="mr10"><span class="mr10">9：00台</span><span>5</span></li>
+							<li><input type="radio" name="test" id="" class="mr10"><span class="mr10">10：00台</span><span>5</span></li>
+							<li><input type="radio" name="test" id="" class="mr10"><span class="mr10">11：00台</span><span>5</span></li>
+							<li><input type="radio" name="test" id="" class="mr10"><span class="mr10">12：00台</span><span>5</span></li>
+							<li><input type="radio" name="test" id="" class="mr10"><span class="mr10">13：00～</span><span>5</span></li>
+						</ul>
+					</div>
+					<div class="col2InB">
+						<p class="sectS">OUT 時間 連続枠</p>
+						<ul>
+							<li><input type="radio" name="test" id="" class="mr10"><span class="mr10">～6：00</span><span>5</span></li>
+							<li><input type="radio" name="test" id="" class="mr10"><span class="mr10">7：00台</span><span>5</span></li>
+							<li><input type="radio" name="test" id="" class="mr10"><span class="mr10">8：00台</span><span>5</span></li>
+							<li><input type="radio" name="test" id="" class="mr10"><span class="mr10">9：00台</span><span>5</span></li>
+							<li><input type="radio" name="test" id="" class="mr10"><span class="mr10">10：00台</span><span>5</span></li>
+							<li><input type="radio" name="test" id="" class="mr10"><span class="mr10">11：00台</span><span>5</span></li>
+							<li><input type="radio" name="test" id="" class="mr10"><span class="mr10">12：00台</span><span>5</span></li>
+							<li><input type="radio" name="test" id="" class="mr10"><span class="mr10">13：00～</span><span>5</span></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /.clearfix -->
+				<p class="txtCenter">
+					<input type="submit" value="進む" class="inpBtn01">
+				</p>
+			</div>
+		</div>
+		<!-- /#ModalArea -->
+	</form>
+</div>
+<!-- /#ModalBg -->
 </body>
 </html>
