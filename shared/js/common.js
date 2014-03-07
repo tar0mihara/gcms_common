@@ -25,6 +25,9 @@ $(function(){
 		var classLi = $(this).attr("class");
 		if(classLi !== "gnPnav current"){
 			$(this).addClass("hover");
+			var url = $(this).find("img").attr("src");
+			url = url.replace(/_off\.(jpg|gif|png)$/, "_on.$1");
+			$(this).find("img").attr("src",url);
 		}
 	}).mouseleave(function(){
 		$(this).find(".subNavArea").addClass("hide");
@@ -32,6 +35,11 @@ $(function(){
 		var classLi = $(this).attr("class");
 		if(classLi !== "gnPnav current"){
 			$(this).removeClass("hover");
+			var url = $(this).find("img").attr("src");
+			url = url.replace(/_on.(jpg|gif|png)/, "_off.$1");
+			$(this).find("img").attr("src",url);
 		}
 	});
+
+
 });
