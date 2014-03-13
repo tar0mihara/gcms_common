@@ -344,11 +344,15 @@ table.tbl02 {
 ----------------------------------------------------------- */
 
 .block01{
-	padding: 30px;
+	padding: 10px;
 	background: #dddddd;
 	border-radius: 5px;
 }
 
+.block02{
+	padding: 5px;
+	border: 1px solid #cccccc;
+}
 
 /* ------------------------------------------------------------
 タブナビ

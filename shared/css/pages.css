@@ -97,6 +97,7 @@ body#A004020 #CalType01 tr td a {
 body#A004020 #CalType01 tr td .calBox{
 		/*padding: 5px;*/
 		position: relative;
+		z-index: 1000;
 		padding: 5px;
 	}
 body#A004020 #CalType01 tr td .calBox .data{
@@ -111,6 +112,18 @@ body#A004020 #CalType01 tr td .calBox .holidayTxt{
 		font-size: 138.5%;
 		text-align: center;
 	}
+body#A004020 .timeBlockIn{
+		width: 50px;
+		height: 20px;
+		background: #ff0000;
+		text-align: center;
+		color: #ffffff;
+		font-weight: bold;
+		float: left;
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+
 
 /* ------------------------------------------------------------
 会計管理
