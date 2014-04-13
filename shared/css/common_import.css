@@ -8,7 +8,7 @@
 %update / 2013.12.11
 ============================================================ */
 
-@import url(/shared/css/init.css); /* 初期化 */
-@import url(/shared/css/pageframe.css); /* ページフレームCSS */
-@import url(/shared/css/style.css); /* カラーCSS */
-@import url(/shared/css/parts.css); /* パーツCSS */
+@import url(/gcms_common/shared/css/init.css); /* 初期化 */
+@import url(/gcms_common/shared/css/pageframe.css); /* ページフレームCSS */
+@import url(/gcms_common/shared/css/style.css); /* カラーCSS */
+@import url(/gcms_common/shared/css/parts.css); /* パーツCSS */
