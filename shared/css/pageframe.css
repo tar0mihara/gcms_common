@@ -27,9 +27,9 @@ a:hover {
 	width: 100%;
 }
 
-/* ------------------------------------------------------------
+/*  ------------------------------------------------------------
 #HeaderArea
------------------------------------------------------------- */
+------------------------------------------------------------  */
 #HeaderArea {
 	width: 100%;
 	background: #efefef;
@@ -137,7 +137,7 @@ a:hover {
 	z-index: 1100;
 	border: 3px solid #666666;
 	background: #666666;
-	width: 200px;
+	width: 170px;
 	border-radius: 0 3px 3px 3px;
 }
 
@@ -152,6 +152,29 @@ a:hover {
 #GlobalNav ul li .subNavArea a:hover{
 	background: #f0f8ff !important;
 }
+
+#GlobalNav ul li .subNavArea ul {
+	padding: 0;
+	margin: 0;
+}
+
+#GlobalNav ul li .subNavArea ul li{
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+#GlobalNav ul li .subNav2Area{
+	position: absolute;
+	z-index: 1500;
+	width: 170px;
+	left: 170px;
+	top:0;
+	background: #2E8B57;
+	border: 3px solid #2E8B57;
+	border-radius: 0 3px 3px 3px;
+}
+
 
 /* ------------------------------------------------------------
 #LocalNav
@@ -208,6 +231,7 @@ a:hover {
 
 #ContentWrap .cwInnr01 {
 	width: 980px;
+	min-height: 600px;
 	padding: 20px 0;
 	margin: 0 auto;
 }
@@ -257,9 +281,11 @@ a:hover {
 
 #ContentSubArea .csTit{
 	font-size: 123.1%;
-	padding: 0 0px 10px 0px;
-	border-bottom: 2px solid #2E8B57;
-	line-height: 1.0;
+	padding: 10px;
+	border: 2px solid #2E8B57;
+	border-radius: 2px;
+	color: #ffffff;
+	background: #2E8B57;
 }
 
 #ContentSubArea .csBoxNav{
@@ -280,6 +306,54 @@ a:hover {
 #ContentSubArea .csBoxNav table td{
 	padding: 0px 3px;
 }
+
+#ContentSubArea .subMenu{
+	border: 3px solid #eeeeee;
+	border-radius: 3px;
+}
+
+#ContentSubArea .subMenu li{
+	border-bottom: 1px dotted #cccccc;
+}
+
+#ContentSubArea .subMenu li:last-child{
+    border-bottom: none;
+}
+
+#ContentSubArea .subMenu li a{
+	text-decoration: none;
+	display: block;
+	padding: 14px 16px;
+	background-image: url(../img/list_mrk_01.gif);
+	background-position: 6px 50%;
+	line-height: 1.0;
+	background-repeat: no-repeat;
+}
+
+#ContentSubArea .subMenu li a:hover{
+	text-decoration: none;
+	background-color: #F0F8FF;
+}
+
+#ContentSubArea .subMenu li a.current{
+	text-decoration: none;
+	background-color: #F0F8FF;
+}
+
+#ContentSubArea .subMenu2{
+	border-top: 1px dotted #cccccc;
+}
+
+#ContentSubArea .subMenu2 li a{
+	display: block;
+	padding: 10px 30px;
+	background-image: url(../img/list_mrk_01.gif);
+	background-position: 20px 50%;
+	line-height: 1.0;
+	background-repeat: no-repeat;
+}
+
+
 
 /* ------------------------------------------------------------
 #FooterArea
@@ -342,9 +416,34 @@ a:hover {
 カラム変更クラス
 ------------------------------------------------------------ */
 
+body.oneColumn {
+	min-width: 1024px;
+}/*リキッド2カラム用CSS*/
+
+body.oneColumn #HeaderArea .haInnr01 {
+	width: auto;
+	padding: 7px 20px 0;
+}/*1カラム用CSS*/
+
+body.oneColumn #GlobalNav ul {
+	width: auto;
+	padding: 0px 20px;
+}/*1カラム用CSS*/
+
 body.oneColumn #ContentWrap #ContentMainArea {
 	width: 100%;
 }/*1カラム用CSS*/
+
+body.oneColumn #ContentWrap .cwInnr01 {
+	width: auto;
+	padding: 10px 20px;
+	position: relative;
+}/*1カラム用CSS*/
+
+
+body.liquidtwoColumn {
+	min-width: 1024px;
+}/*リキッド2カラム用CSS*/
 
 body.liquidtwoColumn #HeaderArea .haInnr01 {
 	width: auto;

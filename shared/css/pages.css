@@ -69,61 +69,201 @@ body#A001020 #ContentWrap ul.list01 li ul.subList01 li{
 予約登録
 ------------------------------------------------------------ */
 
-body#A004020 #CalType01 .thead01 th{
-		padding: 5px 0;
-		text-align: center;
-		font-weight: bold;
-	}
+body#A003020 #CalType01 .thead01 th{
+	padding: 5px 0;
+	text-align: center;
+}
 
-body#A004020 #CalMouth{
-		font-size: 138.5%;
-		text-align: right;
-	}
+body#A003020 #CalType01 tr td{
+	padding: 0;
+}
 
-body#A004020 #CalType01 tr td{
-		padding: 0;
-	}
+body#A003020 #CalType01 tr td.holiday{
+	background: #FFF0F5;
+}
 
-body#A004020 #CalType01 tr td.holiday{
-		background: #FFF0F5;
-	}
+body#A003020 #CalType01 tr td a {
+	text-decoration: none;
+	color: #000000;
+	display: block;
+}
 
-body#A004020 #CalType01 tr td a {
-		text-decoration: none;
-		color: #000000;
-		display: block;
-	}
+body#A003020 #CalType01 tr td .calBox{
+	position: relative;
+	z-index: 1000;
+	padding: 5px;
+}
+body#A003020 #CalType01 tr td .calBox .data{
+	font-size: 138.5%;
+}
+body#A003020 #CalType01 tr td .calBox .dataType{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+body#A003020 #CalType01 tr td .calBox .holidayTxt{
+	font-size: 138.5%;
+	text-align: center;
+}
 
-body#A004020 #CalType01 tr td .calBox{
-		/*padding: 5px;*/
-		position: relative;
-		z-index: 1000;
-		padding: 5px;
-	}
-body#A004020 #CalType01 tr td .calBox .data{
-		font-size: 138.5%;
-	}
-body#A004020 #CalType01 tr td .calBox .dataType{
-		position: absolute;
-		top: 0;
-		right: 0;
-	}
-body#A004020 #CalType01 tr td .calBox .holidayTxt{
-		font-size: 138.5%;
-		text-align: center;
-	}
-body#A004020 .timeBlockIn{
-		width: 50px;
-		height: 20px;
-		background: #ff0000;
-		text-align: center;
-		color: #ffffff;
-		font-weight: bold;
-		float: left;
-		margin-right: 10px;
-		margin-bottom: 10px;
-	}
+body#A003020 #ContentMainArea #SetTimeList{
+	margin: 0;
+	padding: 0;
+	border-left: 1px solid #CCCCCC;
+}
 
+body#A003020 #ContentMainArea #SetTimeList li{
+	background:#EEEEEE;
+	border-right: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 0;
+	cursor: pointer;
+	float: left;
+	text-align: center;
+	margin: 0;
+	font-size: 77%;
+	width: 60px;
+	line-height: 20px;
+
+}
+
+body#A003020 #ContentMainArea ul#SetTimeList li.current {
+	background: none repeat scroll 0 0 #F0F8FF;
+	font-weight: bold;
+}
+
+body#A003020 #SetTimeListBody{
+	
+}
+
+body#A003020 #SetTimeListBody .inner{
+	margin-top: -5px;
+}
+
+body#A003020 .timeBlockIn{
+	width: 58px;
+	line-height: 20px;
+	background: #F14444;
+	text-align: center;
+	color: #ffffff;
+	font-weight: bold;
+	float: left;
+	margin-right: 5px;
+	margin-top: 5px;
+	border-radius: 3px;
+	cursor: pointer;
+	
+}
+
+body#A003020 .timeBlockOut{
+	width: 58px;
+	cursor: pointer;
+	line-height: 20px;
+	background: #7684F1;
+	text-align: center;
+	color: #ffffff;
+	font-weight: bold;
+	float: left;
+	margin-right: 5px;
+	margin-top: 5px;
+	border-radius: 3px;
+}
+
+
+body#A003020 #CalHead{
+	font-size: 116%;
+	text-align: center;
+}
+
+body#A003020 .calArrow {
+	background: #eeeeee;
+	display: inline-block;
+	padding: 0 4px;
+	margin: 0 10px;
+	border: 1px solid #cccccc;
+	cursor: pointer;
+}
+
+body#A003020 .calArrow {
+	background: #eeeeee;
+	display: inline-block;
+	padding: 0 4px;
+	margin: 0 10px;
+	border: 1px solid #cccccc;
+	cursor: pointer;
+}
+
+body#A003020 #ModalBg{
+	position: absolute;
+	z-index: 1200;
+	width: 100%;
+	top: 0;
+	background-color: rgba(0,0,0,0.7);
+}
+body#A003020 #ModalArea{
+	position: relative;
+	width: 400px;
+	top: 0;
+	background-color: #ffffff;
+}
+
+body#A003020 #ModalArea #MdClose{
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	top: -18px;
+	right:-18px;
+	cursor: pointer;
+}
+
+body#A003020 #ModalArea .mdInner{
+	padding: 14px 20px;
+}
+
+
+/* ------------------------------------------------------------
+チェックイン管理
+
+------------------------------------------------------------ */
+body#A004060 .rockerBlock ul{
+	margin-top: 10px;
+}
+
+body#A004060 .rockerBlock ul li{
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 130%;
+	float: left;
+	vertical-align: middle;
+	border: 1px solid #cccccc;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	color: #ffffff;
+	cursor: pointer;
+	background-image: -o-linear-gradient(bottom, #E6E6E6 0%, #BFBFBF 100%, #FFFFFF 100%);
+	background-image: -moz-linear-gradient(bottom, #E6E6E6 0%, #BFBFBF 100%, #FFFFFF 100%);
+	background-image: -webkit-linear-gradient(bottom, #E6E6E6 0%, #BFBFBF 100%, #FFFFFF 100%);
+	background-image: -ms-linear-gradient(bottom, #E6E6E6 0%, #BFBFBF 100%, #FFFFFF 100%);
+	background-image: linear-gradient(to bottom, #E6E6E6 0%, #BFBFBF 100%, #FFFFFF 100%);
+}
+
+body#A004060 .rockerBlock ul li.current{
+	background-image: -o-linear-gradient(bottom, #FF7895 10%, #FF5C72 100%);
+	background-image: -moz-linear-gradient(bottom, #FF7895 10%, #FF5C72 100%);
+	background-image: -webkit-linear-gradient(bottom, #FF7895 10%, #FF5C72 100%);
+	background-image: -ms-linear-gradient(bottom, #FF7895 10%, #FF5C72 100%);
+	background-image: linear-gradient(to bottom, #FF7895 10%, #FF5C72 100%);
+}
+
+body#A004060 .rockerBlock ul li.hover{
+	background-image: -o-linear-gradient(bottom, #D1EBFF 10%, #ABF0FF 100%);
+	background-image: -moz-linear-gradient(bottom, #D1EBFF 10%, #ABF0FF 100%);
+	background-image: -webkit-linear-gradient(bottom, #D1EBFF 10%, #ABF0FF 100%);
+	background-image: -ms-linear-gradient(bottom, #D1EBFF 10%, #ABF0FF 100%);
+	background-image: linear-gradient(to bottom, #D1EBFF 10%, #ABF0FF 100%);
+}
 
 /* ------------------------------------------------------------
 会計管理
@@ -158,4 +298,81 @@ body#A006020 #TabArea01 .tabBody{
 
 body#A006020 #TabArea01 .tabBody.current{
 	display:block !important;
+}
+
+/* ------------------------------------------------------------
+期間設定
+------------------------------------------------------------ */
+
+body#A001340 #PeriodArea .col2InA{
+	width: 65%;
+	margin: 0;
+}
+
+body#A001340 #PeriodArea .col2InB{
+	width: 33%;
+	margin: 0;
+}
+
+body#A001340 #PeriodArea #CalHead{
+	font-size: 116%;
+	text-align: center;
+}
+
+
+body#A001340 #PeriodArea .calArrow {
+	background: #eeeeee;
+	display: inline-block;
+	padding: 0 4px;
+	margin: 0 10px;
+	border: 1px solid #cccccc;
+	cursor: pointer;
+}
+
+body#A001340 #PeriodArea .calArrow {
+	background: #eeeeee;
+	display: inline-block;
+	padding: 0 4px;
+	margin: 0 10px;
+	border: 1px solid #cccccc;
+	cursor: pointer;
+}
+
+body#A001340 #PeriodArea #CalType01 tr th,
+body#A001340 #PeriodArea #CalType01 tr td{
+	padding: 5px;	
+}
+
+body#A001340 #PeriodArea .calDay {
+	display: block;
+	margin-bottom: 5px;
+}
+
+body#A001340 #PeriodArea .calBusDay01 {
+	display: block;
+	margin-bottom: 3px;
+	background: #3cb371;
+	border-radius: 3px;
+	text-align: center;
+	padding: 3px;
+	color: #ffffff;
+}
+
+body#A001340 #PeriodArea .calBusDay02 {
+	display: block;
+	margin-bottom: 3px;
+	background: #ee82ee;
+	border-radius: 3px;
+	text-align: center;
+	padding: 3px;
+	color: #ffffff;
+}
+
+body#A001340 #PeriodArea .calTime {
+	display: block;
+	margin-bottom: 0;
+	border-radius: 3px;
+	color: #000000;
+	text-align: center;
+	padding: 3px;
 }

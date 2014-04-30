@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* ============================================================
+＠＠
+printCSS
+
+%update / 2014.04.28
+
+============================================================ */
+body {
+	
+}
+
+a {
+	text-decoration: none !important;
+	color: #000000;
+}
+
+/*  ------------------------------------------------------------
+#HeaderArea
+------------------------------------------------------------  */
+#HeaderArea {
+	display:none;
+}
+
+
+
+/* ------------------------------------------------------------
+#ContentWrap
+------------------------------------------------------------ */
+#ContentWrap .cwInnr01 {
+	width: 100%;
+	min-height: auto;
+	padding: 0 !important;
+	font-size: 138.5% !important;
+}
+
+/* ------------------------------------------------------------
+#BreadcrumbList
+------------------------------------------------------------ */
+
+#BreadcrumbList{
+	display:none;
+}
+
+/* ------------------------------------------------------------
+#ContentMainArea
+------------------------------------------------------------ */
+#ContentMainArea {
+	width: 100% !important;
+	float: none !important;
+}
+
+#ContentMainArea table th{
+	background: #999999;
+	color: #ffffff;
+	font-size: 85% !important;
+	 -webkit-print-color-adjust: exact;
+}
+
+
+#ContentMainArea table td{
+	font-size: 85% !important;
+}
+
+
+/* ------------------------------------------------------------
+#ContentSubArea
+------------------------------------------------------------ */
+#ContentSubArea {
+	display:none;
+}
+
+
+/* ------------------------------------------------------------
+#FooterArea
+------------------------------------------------------------ */
+#FooterArea {
+	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+}
+
+#FooterArea a{
+}
+
+#FooterArea .innerArea {
+	margin: 0 auto;
+}
+
+/* ------------------------------------------------------------
+.h1Basic01
+------------------------------------------------------------ */
+
+.h1Basic01{
+	border: none;
+	text-align: center;
+}
+
+.h1Basic01 span{
+	border: none !important;
+	text-align: center;
+}
+
+/* ------------------------------------------------------------
+button
+------------------------------------------------------------ */
+input{
+	display: none !important;
+}
+
+
+
+
+

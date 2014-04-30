@@ -6,6 +6,9 @@
 //
 // ============================================================
 
+var CALENDAR;
+CALENDAR = {};
+
 function ajax(){
 	$.ajax( {
 	type : 'GET',
@@ -38,4 +41,23 @@ $(function(){
 	}).mouseout(function(){
 		$(this).css("background","#ffffff");
 	});
+
+	$("#CalType01 tr td").not(".holiday").bind("click",function(){
+		CALENDAR.popShow();
+	});
+
+	$("#ModalArea #MdClose").bind("click",function(){
+		CALENDAR.popHide();
+	});
 })
+
+CALENDAR.popShow = function(){
+	$("#ModalBg").removeClass("hide");
+	$("#ModalBg").css("height", document.documentElement.scrollHeight+"px");
+	$("#ModalArea").css("top", (document.documentElement.clientHeight-$("#ModalArea").height())/2+$("html, body").scrollTop());
+	$("#ModalArea").css("left", (document.documentElement.clientWidth-$("#ModalArea").width())/2);
+}
+
+CALENDAR.popHide = function(){
+	$("#ModalBg").addClass("hide");
+}

@@ -24,15 +24,17 @@ h1.h1Basic01 .h1Inr01 {
 }
 
 h2.h2Basic01 {
-	padding: 8px 0px;
-	font-size: 123.1%;
+	padding: 4px 0px;
+	font-size: 116%;
 	border-bottom: 2px solid #2E8B57;
 }
 
 h3.h3Basic01 {
 	background: #2E8B57;
 	color: #ffffff;
-	padding: 10px;
+	padding: 5px 10px;
+	font-weight: normal;
+	border-radius: 3px 3px 0 0;
 }
 
 h3.h3Basic02 {
@@ -90,6 +92,10 @@ h3.h3Basic02 {
 	padding-bottom: 30px ! important;
 }
 
+.bdrNone{
+	border: none !important;
+}
+
 .ml10{
 	margin-left: 10px;
 }
@@ -100,6 +106,10 @@ h3.h3Basic02 {
 
 .ml30{
 	margin-left: 30px;
+}
+
+.mr5{
+	margin-right: 5px;
 }
 
 .mr10{
@@ -118,7 +128,7 @@ h3.h3Basic02 {
 ボックスレイアウト
 ----------------------------------------------------------- */
 .posLeft {
-	float: left;
+	float: left !important;
 }
 
 .posCenter {
@@ -126,7 +136,7 @@ h3.h3Basic02 {
 }
 
 .posRight {
-	float: right;
+	float: right !important;
 }
 
 /* ------------------------------------------------------------
@@ -191,6 +201,7 @@ h3.h3Basic02 {
 
 .txtSpe01 {
 	font-size: 108%;
+	font-weight: bold;
 }
 
 .txtSub01 {
@@ -344,7 +355,7 @@ table.tbl02 {
 ----------------------------------------------------------- */
 
 .block01{
-	padding: 10px;
+	padding: 5px 10px;
 	background: #dddddd;
 	border-radius: 5px;
 }
@@ -381,7 +392,8 @@ form
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	vertical-align: middle;
+	/*vertical-align: middle;*/
+	font-size:  138.5%;
 }
 
 .inpTxt01:focus{
@@ -394,7 +406,8 @@ form
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	vertical-align: middle;
+	/*vertical-align: middle;*/
+	font-size:  138.5%;
 }
 
 .inpTxt02:focus{
@@ -407,7 +420,8 @@ form
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	vertical-align: middle;
+	/*vertical-align: middle;*/
+	font-size:  138.5%;
 }
 
 .inpTxt03:focus{
@@ -421,6 +435,7 @@ form
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	vertical-align: middle;
+	font-size:  138.5%;
 }
 
 .inpTxt100:focus{
@@ -430,12 +445,13 @@ form
 .inpBtn01{
 	/*border: 1px solid #cccccc;*/
 	padding: 5px 0;
-	width: 100px;
+	width: 140px;
 }
 
 .inpBtn02{
 	/*border: 1px solid #cccccc;*/
 	padding: 2px 5px ;
+	vertical-align: top;
 }
 
 
@@ -444,9 +460,15 @@ form
 	padding: 2px;
 }
 
+.inpR01{
+	vertical-align: middle;
+	margin-right: 3px;
+}
+
 textarea.inpTxtArea01{
 	width: 100%;
 	border: 1px solid #cccccc;
+	font-size:  138.5%;
 }
 
 textarea.inpTxtArea01:focus{
@@ -458,7 +480,7 @@ textarea.inpTxtArea01:focus{
 }
 
 label{
-	margin-right: 10px;
+	margin-right: 5px;
 }
 
 /* ------------------------------------------------------------
